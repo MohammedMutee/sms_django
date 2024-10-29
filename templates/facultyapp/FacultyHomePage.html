@@ -1,0 +1,25 @@
+{% extends 'Navbar/FacultyNavbar.html' %}
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Dashboard</title>
+</head>
+
+<body>
+{% block body %}
+
+    <h1>Welcome to Faculty</h1>
+
+    <!-- Add a link to the logout view or other navigation options -->
+
+
+    <!-- If you have dynamic content to display, you can pass it from the view -->
+    <div>
+        <p>{{ faculty_name }}, this is your dashboard!</p>
+    </div>
+{% endblock %}
+
+</body>
+</html>
